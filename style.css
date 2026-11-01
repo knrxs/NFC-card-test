@@ -1,0 +1,129 @@
+/* 1. Font import MUST be at the very top of the file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+/* Main Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f; /* Plain, minimalist dark background */
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  flex-grow: 1;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Profile Box */
+.profile {
+  width: 90%;
+  max-width: 400px;
+  background: #181818; /* Clean minimalist card color */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 30px 20px;
+  min-height: 200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  box-sizing: border-box;
+  margin: 0 auto 20px auto; /* Creates space between Profile and Name boxes */
+}
+
+/* Profile Icon Container */
+.profile-pic-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-icon {
+  width: 45px;
+  height: 45px;
+  fill: #aaaaaa;
+}
+
+/* Name Box Card Container */
+.name {
+  width: 90%;
+  max-width: 400px;
+  background: #181818;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  margin: 0 auto 20px auto;
+}
+
+/* Name Heading Styling (Font & Black Color) */
+.name h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff; /* Changed text color to white */
+  margin: 0;
+}
+
+/* Contacts / Social Buttons Container */
+.Contacts {
+  width: 90%;
+  max-width: 400px;
+  background: #181818;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  width: 100%;
+  background-color: #222222;
+  color: white;
+  font-size: 14px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #2a2a2a;
+}
+
+/* Social Button Icons */
+.button-icon {
+  width: 18px;
+  height: 18px;
+  fill: #ffffff;
+  flex-shrink: 0;
+}
